@@ -1,0 +1,9 @@
+packages:
+  - iscsi-initiator-utils
+contentOrigin:
+  repofiles:
+    - ./redhat.repo
+context:
+  containerfile:
+    file: ../../build/hyperv-populator/Containerfile-downstream
+arches: [x86_64]
